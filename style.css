@@ -1,0 +1,19 @@
+body {
+    background-color: #D2691E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+li {
+    padding: 25px;
+    background-color: rgba(60, 179, 113, .7);
+}
+li:nth-of-type(odd) {
+    background-color: rgba(119, 136, 153, .7);
+}
